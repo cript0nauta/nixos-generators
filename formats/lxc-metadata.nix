@@ -3,7 +3,7 @@
   system.build.metadata = pkgs.callPackage <nixpkgs/nixos/lib/make-system-tarball.nix> {
     contents = [{
       source = pkgs.writeText "metadata.yaml" ''
-        architecture: x86_64
+        architecture: armv7l
         creation_date: 1424284563
         properties:
           description: NixOS
